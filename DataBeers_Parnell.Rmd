@@ -1,7 +1,7 @@
 ---
 title: "Success with simplicity; a story of tsunamis and dating"
-author: "Andrew C Parnell"
-date: "14/12/2019"
+author: "Andrew C Parnell "
+date: "https://is.gd/data_beers"
 output: 
   ioslides_presentation:
     css: "my-style.css"
@@ -137,7 +137,7 @@ shinyApp(ui = ui, server = server)
 
 ## Search term in title against baseline
 
-```{r, out.width='70%', fig.align='center'}
+```{r, out.width="100%", fig.align='center'}
 textInputRow<-function (inputId, label, value = "") 
 {
     div(style="display:inline-block",
@@ -203,8 +203,11 @@ shinyApp(ui = ui2, server = server2)
 
 <div class="centered">
 <b> Thanks and enjoy! </b>
-<b> [github.com/andrewcparnell/data_beers](https::/www.github.com/andrewcparnell/data_beers)
-
 </div>
+<div class="centered">
+<b> [github.com/andrewcparnell/data_beers](https::/www.github.com/andrewcparnell/data_beers)
+</div>
+
+
 
 
