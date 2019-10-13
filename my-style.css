@@ -1,0 +1,26 @@
+.gdbar img {
+  width: 215px !important;
+  height: 80px !important;
+  margin: 4px 4px;
+}
+
+.gdbar {
+  width: 400px !important;
+  height: 100px !important;
+}
+
+slides > slide {
+  font-family: "Futura", Times, serif;
+}
+
+slides > slide:not(.title-slide) {
+   background-image: url("log.png");
+   background-size: 20%;
+   background-repeat: no-repeat;
+   background-position: 3% 96%;
+ }
+ 
+ .shiny-frame{
+  width: 900px;
+  height: 600px;
+}
